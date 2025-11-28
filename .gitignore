@@ -1,3 +1,5 @@
+# --- ARCHIVOS DEL PROYECTO LOCAL (SPRING BOOT / MAVEN) ---
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -31,3 +33,32 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# --- ARCHIVOS DEL REPOSITORIO REMOTO ---
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
