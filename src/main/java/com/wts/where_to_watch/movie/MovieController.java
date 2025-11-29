@@ -26,7 +26,7 @@ public class MovieController {
         @RequestParam(required = false) Integer anio,
         @RequestParam(required = false) String servicio_streaming){
 
-        if(id != null && titulo != null){
+        if(titulo != null){
             return movieService.getMoviesFromName(titulo);
         }
         else if(genero != null) {

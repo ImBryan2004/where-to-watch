@@ -9,5 +9,5 @@ import java.util.UUID;
 
 public interface MovieRepository extends JpaRepository<Movie, UUID> {
     void deleteByTitulo (String titulo);
-    Optional<Movie> findByid(UUID id);
+    Optional<Movie> findById(UUID id);
 }

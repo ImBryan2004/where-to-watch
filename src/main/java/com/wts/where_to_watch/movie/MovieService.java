@@ -48,7 +48,7 @@ public class MovieService {
     }
 
     public Movie updateMovie (Movie updatedMovie){
-        Optional<Movie> existingMovie = movieRepository.findByid(updatedMovie.getId());
+        Optional<Movie> existingMovie = movieRepository.findById(updatedMovie.getId());
 
         if (existingMovie.isPresent()){
             Movie movieToUpdate = existingMovie.get();
