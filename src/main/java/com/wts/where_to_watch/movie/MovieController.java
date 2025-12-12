@@ -24,7 +24,8 @@ public class MovieController {
         @RequestParam(required = false) String titulo,
         @RequestParam(required = false) String genero,
         @RequestParam(required = false) Integer anio,
-        @RequestParam(required = false) String servicio_streaming){
+        @RequestParam(required = false) String servicio_streaming,
+        @RequestParam(required = false) String descripcion){
 
         if(titulo != null){
             return movieService.getMoviesFromName(titulo);

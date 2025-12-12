@@ -20,6 +20,8 @@ public class Movie {
 
     private String servicio_streaming;
 
+    private String descripcion;
+
     // Constructor vacío (OBLIGATORIO para JPA)
     public Movie() {
     }
@@ -31,6 +33,7 @@ public class Movie {
         this.genero = genero;
         this.anio = anio;
         this.servicio_streaming = servicio_streaming;
+        this.descripcion = descripcion;
     }
 
     // Constructor sin ID (para cuando PostgreSQL lo genera automáticamente)
@@ -39,6 +42,7 @@ public class Movie {
         this.genero = genero;
         this.anio = anio;
         this.servicio_streaming = servicio_streaming;
+        this.descripcion = descripcion;
     }
 
     public UUID getId() {
@@ -69,6 +73,7 @@ public class Movie {
         return anio;
     }
 
+
     public void setAnio(Integer anio) {
         this.anio = anio;
     }
@@ -80,4 +85,13 @@ public class Movie {
     public void setServicio_streaming(String servicio_streaming) {
         this.servicio_streaming = servicio_streaming;
     }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = this.descripcion;
+    }
+
 }

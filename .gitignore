@@ -1,6 +1,7 @@
 # --- ARCHIVOS DEL PROYECTO LOCAL (SPRING BOOT / MAVEN) ---
 
 HELP.md
+.env
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -61,6 +62,4 @@ build/
 # JVM crash logs
 hs_err_pid*
 replay_pid*
-
-src/main/resources/application.properties
 

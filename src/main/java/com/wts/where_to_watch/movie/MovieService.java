@@ -56,6 +56,7 @@ public class MovieService {
             movieToUpdate.setGenero(updatedMovie.getGenero());
             movieToUpdate.setAnio(updatedMovie.getAnio());
             movieToUpdate.setServicio_streaming(updatedMovie.getServicio_streaming());
+            movieToUpdate.setDescripcion(updatedMovie.getDescripcion());
 
             movieRepository.save(movieToUpdate);
             return movieToUpdate;
